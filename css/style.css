@@ -1101,4 +1101,9 @@ hr {
         width: 80%;
     }
 
+    .about p {
+        font-size: 1.15em;
+    }
+
+
 }
