@@ -8,8 +8,6 @@ function menu() {
 
 
 (function () {
-    $("footer").load("../pages/footer.html");
-    $("#side-menu").load("../pages/navbar.html");
 
     AOS.init({
         duration: 500,
