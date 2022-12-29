@@ -1,8 +1,5 @@
 let bookForm = document.getElementById("book-form");
 
-
-
-
 bookForm.addEventListener("submit", e => {
 
     if (bookForm.checkValidity() == false) {
