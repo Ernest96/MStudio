@@ -74,7 +74,9 @@
 
         <main id="main">
             <section class="top-section" id="index">
-                <video class="index-video" poster="images/poster.png" autoplay muted loop playsinline src="video/pilates.mp4"></video>
+                <video class="index-video" preload="auto" poster="images/poster.png" autoplay muted loop playsinline >
+                    <source src="video/pilates.mp4">
+                </video>
                 <div class="index-div">
                     <div id="coin" data-aos-anchor-placement="center-bottom" data-aos="fade-right" data-aos-delay="100"
                         data-aos-offset="0">
@@ -198,10 +200,18 @@
                     <div class="container-gallery gallery-about" data-aos="fade-in" data-aos-delay="500"
                         data-aos-offset="0">
 
-                        <video autoplay muted loop playsinline src="video/v1.mp4"></video>
-                        <video autoplay muted loop playsinline src="video/v2.mp4"></video>
-                        <video autoplay muted loop playsinline src="video/v3.mp4"></video>
-                        <video autoplay muted loop playsinline src="video/v4.mp4"></video>
+                        <video autoplay muted preload="auto" loop playsinline >
+                            <source src="video/v1.mp4">
+                        </video>
+                        <video autoplay muted preload="auto" loop playsinline>
+                            <source src="video/v2.mp4">
+                        </video>
+                        <video autoplay muted preload="auto" loop playsinline>
+                            <source src="video/v3.mp4">
+                        </video>
+                        <video autoplay muted preload="auto" loop playsinline>
+                            <source src="video/v4.mp4">
+                        </video>
                     </div>
                 </div>
 
