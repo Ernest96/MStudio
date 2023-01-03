@@ -529,10 +529,10 @@ hr {
 
 .instructor-section p {
     font-size: 1.2em;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     line-height: 180%;
 }
 
