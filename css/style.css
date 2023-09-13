@@ -260,7 +260,7 @@ hr {
     position: relative;
 }
 
-.about p {
+.about p, .prices-container p {
     font-size: 1.35em;
     text-align: center;
     font-weight: bold;
@@ -884,7 +884,7 @@ hr {
     filter: opacity(0.6)
 }
 
-.servicii-container, .benificii-container  {
+.servicii-container, .benificii-container, .preturi-list-container  {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -898,7 +898,7 @@ hr {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding: 15px;
-    height: 240px;
+    min-height: 240px;
     width: 280px;
     border: 1px solid lightgray;
     text-align: center;
@@ -906,8 +906,49 @@ hr {
     font-size: 1.6rem;
 }
 
+.pret {
+    background-color: #dadcdc9f;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 15px;
+    min-height: 240px;
+    width: 260px;
+    border: 1px solid lightgray;
+    text-align: center;
+    color: #2C5864;
+    font-size: 1.6rem;
+}
+
+.pret-item {
+    margin-bottom: 5px;
+}
+
+.pret-value {
+    font-size: 2.4rem;
+}
+
+.pret-session {
+    font-size: 1.05rem;
+}
+
+.pret-header {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pret-header.privat {
+    background: linear-gradient(to right, #adfbfe7b, #8ccbfe84);
+}
+
+.pret-header.semiprivat {
+    background: linear-gradient(to right, #ee914b7a, #db502282);
+}
+
 .benificiu {
-    height: 165px;
+    min-height: 165px;
     width: 160px;
     font-size: 1.5rem;
     padding: 10px;
@@ -1103,7 +1144,7 @@ hr {
         width: 80%;
     }
 
-    .about p {
+    .about p, .prices-container p {
         font-size: 1.22em;
     }
 
