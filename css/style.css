@@ -51,7 +51,7 @@ small {
 
 .top-section {
     height: 100%;
-    background: linear-gradient(130deg,  #8fbdc257 55%, #2c58648a 100%);
+    background: linear-gradient(180deg, #1d1d1d69 10%, #8fc29874 100%);
     position: relative;
     width: 100%;
 }
@@ -105,7 +105,7 @@ small {
     color: white !important;
     text-decoration: none !important;
     font-size: 1.8rem;
-    border: 2px solid #6bbbc4;
+    border: 2px solid #65c37c;
     padding: 10px 10px 5px 10px;
     box-shadow: #cca19311 0px 7px 29px 0px;
     background-color: #57575746;
@@ -168,16 +168,16 @@ footer {
     padding-top: 1px;
     padding-bottom: 22px;
     flex-direction: column;
-    color:#2C5864;
+    color:#589e68;
 }
 
 
 footer a {
-    color:#2C5864 !important;
+    color:#589e68 !important;
 }
 
 hr {
-    border-top: 2px solid #6bbbc4;
+    border-top: 2px solid #589e68;
 }
 
 #menu-btn {
@@ -187,7 +187,7 @@ hr {
     right: 12px;
     top: 12px;
     cursor: pointer;
-    background-color: #2c5864cd;
+    background-color: #51a465cd;
     padding: 5px 14px;
     border-radius: 50%;
     z-index: 3;
@@ -220,7 +220,7 @@ hr {
 }
 
 .nav-links a {
-    color:#2C5864 !important;
+    color:#589e68 !important;
     font-size: 2.5rem;
     text-align: center;
     display: block;
@@ -229,7 +229,7 @@ hr {
 }
 
 .nav-links a:hover {
-    color: #6bbbc4 !important;
+    color: #4eb266 !important;
 }
 
 
@@ -405,7 +405,7 @@ hr {
 }
 
 .contacts-table td:nth-child(2) a{ 
-    color: #2C5864 !important;
+    color: #589e68 !important;
 }
 
 
@@ -459,7 +459,7 @@ hr {
 
 
 .book-instructor-btn {
-    border: 1px solid #2C5864;
+    border: 1px solid #589e68;
     display: inline-block;
     margin-top: 12px;
     padding: 7px 7px 4px 7px;
@@ -716,7 +716,7 @@ hr {
     width: 100%;
     background-color: #f7f7f7b3;
     outline: none;
-    border: 1px solid #2C5864;
+    border: 1px solid #589e68;
     padding: 8px;
     font-size: 1.2em;
     font-weight: bold;
