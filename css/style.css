@@ -405,7 +405,7 @@ hr {
 }
 
 .contacts-table td:nth-child(2) a{ 
-    color: #589e68 !important;
+    color: inherit !important;
 }
 
 
